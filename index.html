@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5ae60ae96a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="codigo.css">
+
+    <title>Moto Betel</title>
+</head>
+<body>
+
+    <header class="header">
+        <!--menu-->
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <i class="fa-solid fa-bars" class="menu-icono"></i>
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </nav>
+            <!--carrito de compras-->
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <i class="fa-solid fa-motorcycle" id="imeg-carrito"></i>
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <!--cabezera de la tabla-->
+                                <thead>
+                                    <tr>
+                                        <th>Imagen </th>
+                                        <th> Nombre </th>
+                                        <th> Precio </th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <!--cuerpo de la tabla-->
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="header-content container">
+            <div class="header-img">
+                <h2>Moto Betel</h2>
+            </div>
+            <div class="header-txt">
+                <h1>TU PROVEEDOR DE CONFIANZA</h1>
+                <p>Compra los mejores repuestos</p>
+                <a href="#" class="btn-1">Informacion</a>
+            </div>
+        </div>
+
+
+    </header>
+
+    <!--muestrario de productos-->
+
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="/bicolor.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Luces h4 Bi-color</h3>
+                <a href="#" class="btn-2">Comprar</a>
+            </div>
+        </div>
+
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="/protectortacomtro.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Protector de tacometro sbr, socialista</h3>
+                <a href="#" class="btn-2">Comprar</a>
+            </div>
+        </div>
+
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="/exploradoras.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Exploradoras</h3>
+                <a href="#" class="btn-2">Comprar</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!--contenido principal de la pagina-->
+
+    <main class="products container" id="lista-1">
+
+        <h2>Nuestros Productos</h2>
+
+        <div class="product-content">
+            
+            <div class="product">
+                <img src="/kitdemotor.png" alt="motor">
+                <div class="product-txt">
+                    <h3>Kit de Motor</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/kitdearrastre.png" alt="arrastre">
+                <div class="product-txt">
+                    <h3>Kit de Arrastre</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">$170</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/filtrosdegasolina.png" alt="filtros">
+                <div class="product-txt">
+                    <h3>Filtros de Gasolina de Lujo</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">$15</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/llantas.png" alt="llantas">
+                <div class="product-txt">
+                    <h3>Llantas</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">$90</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/bomba de aire.png" alt="aire">
+                <div class="product-txt">
+                    <h3>Bomba de Aire para Moto</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">$19</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/portamaleta.png" alt="maletas">
+                <div class="product-txt">
+                    <h3>Porta Maleta</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">$30</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!--seccion de iconos-->
+
+    <section class="icons container">
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <i class="fa-solid fa-anchor"></i>
+            </div>
+            <div class="icon-txt">
+                <h3>5 años de experiencia en el mercado</h3>
+                <p>
+                    Desde el 2018
+                </p>
+            </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <i class="fa-solid fa-anchor-lock"></i>
+            </div>
+            <div class="icon-txt">
+                <h3>Auto partes para tu Moto</h3>
+                <p>
+                    De todas las marcas
+                </p>
+            </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <i class="fa-solid fa-anchor-circle-check"></i>
+            </div>
+            <div class="icon-txt">
+                <h3>Servicio de Reparacion</h3>
+                <p>
+                    Mano de Obra Calificada
+                </p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <section class="blog container">
+
+        <div class="blog-1">
+            <img src="/sbr.png" alt="sbr">
+            <h3>Sbr 2020/21/22/23</h3>
+            <p>
+            Con su motor monocilíndrico de 4 tiempos enfriado por aire, obtendrás un excelente rendimiento y una velocidad máxima de 120 km/h.
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="/ek.png" alt="ek">
+            <h3>Ek 2020/21/22/23</h3>
+            <p>
+            150 cc, potente y rendidora,  con una potencia de 13 HP/8700 rpm y un torque de 10 Nm/7500 rpm y logra una velocidad máxima de 120 km/h
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="/hj.png" alt="">
+            <h3>HJ 2020/21/22/23</h3>
+            <p>
+                Su transmisión mecánica de cinco velocidades le permite alcanzar en su último cambio una velocidad final de 90 km/h.
+            </p>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Contactanos</h3>
+                <ul>
+                    <li><a href="#">(0000)0000000</a></li>
+                    <li><a href="#">(0000)0000000</a></li>
+                    <li><a href="#">(0000)0000000</a></li>
+                    <li><a href="#">(0000)0000000</a></li>
+                </ul>
+
+            </div>
+            <div class="link">
+                <h3>Dias de laborar</h3>
+                <ul>
+                    <li><a href="#">lunes</a></li>
+                    <li><a href="#">Martes</a></li>
+                    <li><a href="#">Miercoles</a></li>
+                    <li><a href="#">Jueves y Viernes</a></li>
+                </ul>
+
+            </div>
+            <div class="link">
+                <h3>Horarios</h3>
+                <ul>
+                    <li><a href="#">8:00am</a></li>
+                    <li><a href="#">12:00pm</a></li>
+                    <li><a href="#">2:00pm</a></li>
+                    <li><a href="#">6:00pm</a></li>
+                </ul>
+
+            </div>
+            <div class="link">
+                <h3>Ubicacion</h3>
+                <ul>
+                    <li><a href="#">San Juan de Colon</a></li>
+                    <li><a href="#">San Juan de Colon</a></li>
+                    <li><a href="#">San Juan de Colon</a></li>
+                    <li><a href="#">San Juan de Colon</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+<script src="codigo.js"></script>
+
+
+    
+</body>
+</html>
